@@ -24,5 +24,3 @@
 | `04_model_analisis` | *(Kosong - Dikhususkan untuk pertemuan berikutnya)* |
 | `05_model_desain` | *(Kosong - Dikhususkan untuk pertemuan berikutnya)* |
 | `06_laporan` | Laporan singkat praktikum |
-
-> ⚠️ **Catatan Penting:** Diagram pada folder `03_latihan_tools` hanyalah uji operasional kakas (belum divalidasi sebagai model proses bisnis final).
