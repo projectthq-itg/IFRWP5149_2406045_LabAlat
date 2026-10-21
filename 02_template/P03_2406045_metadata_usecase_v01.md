@@ -1,0 +1,23 @@
+# Metadata Artefak
+
+- **ID artefak:** P03_2406045_usecase_LAB_SIA
+- **Judul:** Use Case Diagram dan Use Case Description - LAB & SIA
+- **Pertemuan:** 3
+- **Sumber skenario:** 
+  - `/01_skenario/P03_LAB_kebutuhan_v01.md`
+  - `01_skenario/P03_SIA_kebutuhan_v01.md`
+- **Jenis/status:** Use case diagram & description / LATIHAN USE CASE DIAGRAM
+- **Kakas:** Draw.io
+- **Pembuat:** Muhammad Thoriq Mustaqim (2406045)
+- **Versi :** v01 
+- **Asumsi/pertanyaan:** 
+  - Pengguna telah terautentikasi sebelum mengakses sistem.
+  - Perpindahan fisik alat tidak dimodelkan di dalam perangkat lunak.
+  - Pengajuan (Peminjaman/KRS) yang tersimpan berstatus "Menunggu keputusan", bukan otomatis "Disetujui".
+- **Pemeriksaan:** 
+  - Relasi `«include»` dan `«extend»` sudah sesuai arah panah putus-putus.
+  - Garis asosiasi menggunakan garis utuh tanpa panah.
+  - Seluruh kebutuhan (LAB-R01 s.d LAB-R06 dan SIA-R03 s.d SIA-R06) sudah terwakili dalam diagram dan deskripsi.
+  - Berkas sumber `.drawio` telah diuji tutup dan buka kembali tanpa error.
+- **Riwayat revisi:** 
+  - v01 - Pembuatan awal diagram use case, relasi include/extend, dan use case description untuk skenario LAB dan SIA.
