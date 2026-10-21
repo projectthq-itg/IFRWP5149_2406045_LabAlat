@@ -19,8 +19,8 @@ Untuk membuktikan bahwa file sumber tidak *corrupt* dan dapat dilanjutkan pada p
 | **5. Ekspor** | Melakukan ekspor ulang ke format `.png` setelah modifikasi. | `P01_2406045_latihan_activity_v01.png` |
 
 > 📸 **Bukti Visual:** 
-> *(Silakan tarik dan lepas (drag & drop) file gambar screenshot atau GIF rekaman layar kamu di baris ini)*
-> `<img src="path/ke/gambar_kamu.png" width="500">`
+
+> <img src="../03_latihan_tools/P01_2406045_latihan_activity_v01.drawio.png" width="500">
 
 ### 🚧 C. Kendala dan Solusi
 Selama pengerjaan, saya menghadapi kendala teknis dan berhasil mengatasinya:
