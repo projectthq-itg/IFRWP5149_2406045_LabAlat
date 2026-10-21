@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" modified="2024-05-20T10:00:00.000Z" agent="Mozilla/5.0" version="22.0.0" type="device">
+  <diagram id="modern-s-ori-01" name="Latihan kakas — S-ORI-01">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Start Node -->
+        <mxCell id="2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#2C3E50;strokeColor=none;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="100" width="40" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- Activity 1 -->
+        <mxCell id="3" value="Buka daftar peralatan" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#3498DB;strokeWidth=2;fontColor=#2C3E50;fontStyle=1;shadow=1;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="160" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Activity 2 -->
+        <mxCell id="4" value="Lihat informasi ketersediaan" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#3498DB;strokeWidth=2;fontColor=#2C3E50;fontStyle=1;shadow=1;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="160" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- End Node -->
+        <mxCell id="5" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#2C3E50;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="440" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#2C3E50;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="145" y="455" width="30" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- Note -->
+        <mxCell id="7" value="Belum divalidasi sebagai model proses" style="text;html=1;strokeColor=#F39C12;fillColor=#FEF9E7;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontStyle=2;fontColor=#D35400;shadow=1;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="350" y="100" width="250" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- Edges -->
+        <mxCell id="8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#7F8C8D;strokeWidth=2;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#7F8C8D;strokeWidth=2;" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#7F8C8D;strokeWidth=2;" edge="1" parent="1" source="4" target="5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
