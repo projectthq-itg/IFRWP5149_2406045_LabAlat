@@ -5,7 +5,7 @@
 - **Pertemuan:** 3
 - **Sumber skenario:** 
   - `/01_skenario/P03_LAB_kebutuhan_v01.md`
-  - `01_skenario/P03_SIA_kebutuhan_v01.md`
+  - `/01_skenario/P03_SIA_kebutuhan_v01.md`
 - **Jenis/status:** Use case diagram & description / LATIHAN USE CASE DIAGRAM
 - **Kakas:** Draw.io
 - **Pembuat:** Muhammad Thoriq Mustaqim (2406045)
