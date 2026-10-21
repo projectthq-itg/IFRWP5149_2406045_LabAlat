@@ -1,6 +1,6 @@
 <div align="center">
   <h1>📚 IFRWP5149 - Lab Alat Workspace</h1>
-  <p>Repositori ini dibuat untuk memenuhi Tugas Praktikum Pertemuan 1.</p>
+  <p>Repositori ini dibuat untuk memenuhi Tugas Praktikum </p>
   
   ![Status](https://img.shields.io/badge/Status-Selesai-success)
   ![Pertemuan](https://img.shields.io/badge/Pertemuan-1-blue)
