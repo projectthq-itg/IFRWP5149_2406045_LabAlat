@@ -16,7 +16,7 @@ Berdasarkan dokumen konteks bisnis, sistem ini memiliki batasan ruang lingkup (*
 > *Catatan: Sesuai materi, aktor adalah pihak yang berinteraksi langsung dengan sistem. Oleh karena itu, Dosen PJ dan Pengelola Lab tidak digambarkan sebagai *stick figure* di diagram.*
 
 ### 🖼️ B. Diagram Use Case
- <img src="../03_latihan_tools/P02_2406045_usecase_v01.drawio.png" width="600">
+ <img src="../03_latihan_tools/P02/SIA/P02_2406045_SIA_notasi_v01.drawio.png" width="600">
 
 ### 🛠️ C. Catatan Perbaikan Notasi (Review)
 Sesuai Tujuan Pembelajaran ke-5, berikut adalah catatan perbaikan saat proses *review* mandiri:
