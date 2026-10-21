@@ -7,7 +7,7 @@
 *   **Jenis/status:** latihan / draf
 *   **Kakas:** Draw.io
 *   **Pembuat:** Muhammad Thoriq Mustaqim
-*   **Versi dan tanggal:** v01 / 2024-XX-XX *(isi tanggal praktikum)*
+*   **Versi dan tanggal:** v01 
 *   **Asumsi/pertanyaan:** (Lihat file `S-ORI-01_orientasi_kasus_v01.md`)
 *   **Pemeriksaan:** Sudah diuji *close* dan *re-open* file sumber. Ekspor gambar sesuai dengan versi terakhir.
 *   **Riwayat revisi:** v01 - Pembuatan awal diagram latihan aktivitas.
