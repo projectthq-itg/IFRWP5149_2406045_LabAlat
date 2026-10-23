@@ -1,0 +1,75 @@
+<mxfile host="app.diagrams.net" modified="2024-05-20T10:00:00.000Z" agent="Mozilla/5.0" version="22.0.0" type="device">
+  <diagram id="P04_LAB" name="P04 LAB Usecase">
+    <mxGraphModel dx="1200" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Boundary -->
+        <mxCell id="2" value="Sistem Informasi Peminjaman dan Pengembalian Peralatan Laboratorium Kampus" style="swimlane;whiteSpace=wrap;html=1;startSize=30;fillColor=none;strokeColor=#000000;strokeWidth=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="50" width="600" height="750" as="geometry" />
+        </mxCell>
+
+        <!-- Use Cases P3 (Tetap) -->
+        <mxCell id="3" value="Lihat Ketersediaan Peralatan" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="2"><mxGeometry x="50" y="50" width="130" height="50" as="geometry" /></mxCell>
+        <mxCell id="5" value="Ajukan Peminjaman" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="2"><mxGeometry x="50" y="200" width="130" height="50" as="geometry" /></mxCell>
+        <mxCell id="6" value="Periksa Ketersediaan" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="2"><mxGeometry x="50" y="350" width="130" height="50" as="geometry" /></mxCell>
+        <mxCell id="7" value="Cetak Bukti Pengajuan" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="2"><mxGeometry x="250" y="120" width="130" height="50" as="geometry" /></mxCell>
+        <mxCell id="4" value="Kelola Data Peralatan" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="2"><mxGeometry x="420" y="200" width="130" height="50" as="geometry" /></mxCell>
+        <mxCell id="8" value="Proses Keputusan Peminjaman" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="2"><mxGeometry x="420" y="50" width="130" height="50" as="geometry" /></mxCell>
+        <mxCell id="9" value="Lihat Laporan Peminjaman" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="2"><mxGeometry x="420" y="600" width="130" height="50" as="geometry" /></mxCell>
+
+        <!-- Use Cases P4 (Baru - Generalization) -->
+        <mxCell id="10" value="Tambah Data Peralatan" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="2"><mxGeometry x="250" y="300" width="130" height="50" as="geometry" /></mxCell>
+        <mxCell id="11" value="Ubah Data Peralatan" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="2"><mxGeometry x="250" y="380" width="130" height="50" as="geometry" /></mxCell>
+        <mxCell id="12" value="Hapus Data Peralatan" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="2"><mxGeometry x="250" y="460" width="130" height="50" as="geometry" /></mxCell>
+        
+        <!-- Use Cases P4 (Baru - Pengembalian) -->
+        <mxCell id="13" value="Catat Pengembalian Peralatan" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="2"><mxGeometry x="50" y="500" width="150" height="60" as="geometry" /></mxCell>
+        <mxCell id="14" value="Periksa Kondisi Peralatan" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="2"><mxGeometry x="50" y="620" width="150" height="60" as="geometry" /></mxCell>
+
+        <!-- Collaborations (Elips Putus-putus) -->
+        <mxCell id="15" value="Ajukan Peminjaman" style="ellipse;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="2"><mxGeometry x="250" y="220" width="130" height="50" as="geometry" /></mxCell>
+        <mxCell id="16" value="Catat Pengembalian Peralatan" style="ellipse;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="2"><mxGeometry x="250" y="520" width="150" height="60" as="geometry" /></mxCell>
+
+        <!-- Actors -->
+        <mxCell id="17" value="Peminjam" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="120" y="200" width="40" height="80" as="geometry" /></mxCell>
+        <mxCell id="18" value="Mahasiswa" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1"><mxGeometry x="120" y="350" width="30" height="60" as="geometry" /></mxCell>
+        <mxCell id="19" value="Dosen" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1"><mxGeometry x="120" y="50" width="30" height="60" as="geometry" /></mxCell>
+        
+        <mxCell id="20" value="Petugas Laboratorium" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1"><mxGeometry x="950" y="200" width="30" height="60" as="geometry" /></mxCell>
+        <mxCell id="21" value="Kepala Laboratorium" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1"><mxGeometry x="950" y="600" width="30" height="60" as="geometry" /></mxCell>
+
+        <!-- Associations -->
+        <mxCell id="22" style="endArrow=none;html=1;" edge="1" parent="1" source="17" target="3"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="23" style="endArrow=none;html=1;" edge="1" parent="1" source="17" target="5"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="24" style="endArrow=none;html=1;" edge="1" parent="1" source="18" target="7"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="25" style="endArrow=none;html=1;" edge="1" parent="1" source="20" target="4"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="26" style="endArrow=none;html=1;" edge="1" parent="1" source="20" target="8"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="27" style="endArrow=none;html=1;" edge="1" parent="1" source="20" target="13"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="28" style="endArrow=none;html=1;" edge="1" parent="1" source="21" target="9"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <!-- Generalization (Aktor) - Panah segitiga kosong -->
+        <mxCell id="29" style="endArrow=block;endFill=0;html=1;" edge="1" parent="1" source="18" target="17"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="30" style="endArrow=block;endFill=0;html=1;" edge="1" parent="1" source="19" target="17"><mxGeometry relative="1" as="geometry" /></mxCell>
+        
+        <!-- Generalization (Use Case) - Panah segitiga kosong -->
+        <mxCell id="31" style="endArrow=block;endFill=0;html=1;" edge="1" parent="1" source="10" target="4"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="32" style="endArrow=block;endFill=0;html=1;" edge="1" parent="1" source="11" target="4"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="33" style="endArrow=block;endFill=0;html=1;" edge="1" parent="1" source="12" target="4"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <!-- Include/Extend (P3) -->
+        <mxCell id="34" value="&lt;&lt;include&gt;&gt;" style="endArrow=open;dashed=1;html=1;endSize=8;" edge="1" parent="1" source="5" target="6"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="35" value="&lt;&lt;extend&gt;&gt;" style="endArrow=open;dashed=1;html=1;endSize=8;" edge="1" parent="1" source="7" target="5"><mxGeometry relative="1" as="geometry" /></mxCell>
+        
+        <!-- Include (P4 Baru) -->
+        <mxCell id="36" value="&lt;&lt;include&gt;&gt;" style="endArrow=open;dashed=1;html=1;endSize=8;" edge="1" parent="1" source="13" target="14"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <!-- Realization (Dashed with open triangle arrow) -->
+        <mxCell id="37" style="endArrow=block;endFill=0;dashed=1;html=1;" edge="1" parent="1" source="15" target="5"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="38" style="endArrow=block;endFill=0;dashed=1;html=1;" edge="1" parent="1" source="16" target="13"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
