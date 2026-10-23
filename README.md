@@ -3,7 +3,7 @@
   <p>Repositori ini dibuat untuk memenuhi Tugas Praktikum </p>
   
   ![Status](https://img.shields.io/badge/Status-Selesai-success)
-  ![Pertemuan](https://img.shields.io/badge/Pertemuan-1-blue)
+  ![Pertemuan](https://img.shields.io/badge/Pertemuan-4-blue)
   ![Tools](https://img.shields.io/badge/Tools-Draw.io-orange)
 </div>
 
@@ -21,6 +21,6 @@
 | `01_skenario` | Skenario S-ORI-01 dan catatan mandiri |
 | `02_template` | Template metadata artefak |
 | `03_latihan_tools` | File sumber `.drawio` dan hasil ekspor `.png` |
-| `04_model_analisis` | *(Kosong - Dikhususkan untuk pertemuan berikutnya)* |
-| `05_model_desain` | *(Kosong - Dikhususkan untuk pertemuan berikutnya)* |
+| `04_model_analisis` | |
+| `05_model_desain` |  |
 | `06_laporan` | Laporan singkat praktikum |
