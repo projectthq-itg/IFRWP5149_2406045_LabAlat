@@ -1,0 +1,29 @@
+# Metadata Artefak - Pertemuan 4
+
+- **ID artefak:** P04_2406045_usecase_LAB_SIA
+- **Judul:** Use Case Diagram Lanjutan (Generalization & Collaboration)
+- **Pertemuan:** 4
+- **Sumber skenario:** 
+  - `01_skenario/P04_LAB_kebutuhan_v01.md`
+  - `01_skenario/P04_SIA_kebutuhan_v01.md`
+- **Jenis/status:** Use case diagram kumulatif / LATIHAN USE CASE DIAGRAM LANJUTAN
+- **Kakas:** Draw.io
+- **Pembuat:** Muhammad Thoriq Mustaqim (2406045)
+- **Versi dan tanggal:** v01 / [Isi Tanggal]
+- **Sumber kebutuhan baru:** 
+  - LAB: LAB-R07 s.d. LAB-R11
+  - SIA: SIA-R07 s.d. SIA-R12
+- **Generalization yang digunakan:**
+  - Aktor: Peminjam (umum) <- Mahasiswa, Dosen (khusus); Civitas Akademika (umum) <- Mahasiswa, Dosen (khusus).
+  - Use Case: LAB-UC02 <- LAB-UC08, LAB-UC09, LAB-UC10; SIA-UC10 <- SIA-UC11, SIA-UC12, SIA-UC13.
+- **Collaboration yang digunakan:**
+  - LAB-CO01: Ajukan Peminjaman
+  - LAB-CO02: Catat Pengembalian Peralatan
+  - SIA-CO01: Input Nilai Mata Kuliah
+  - SIA-CO02: Lihat KHS
+- **Pemeriksaan:** 
+  - Arah panah generalization (segitiga kosong) sudah menunjuk ke aktor/use case umum.
+  - Relasi realization (putus-putus, segitiga kosong) sudah dari collaboration ke use case.
+  - Tidak ada asosiasi warisan yang digambar ulang dari aktor khusus.
+  - File sumber `.drawio` diuji tutup dan buka kembali.
+- **Riwayat revisi:** v01 - Pembuatan diagram kumulatif P4.
